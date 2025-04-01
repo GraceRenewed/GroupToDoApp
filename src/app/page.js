@@ -1,3 +1,7 @@
+'use client';
+
+import ToDoCard from '../components/ToDoCard';
+
 function Home() {
   return (
     <div
@@ -9,7 +13,7 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      Welcome to Next JS!
+      <ToDoCard />
     </div>
   );
 }
