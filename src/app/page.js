@@ -1,6 +1,7 @@
 'use client';
 
 import ToDoCard from '../components/ToDoCard';
+import ToDoForm from '../components/Forms/ToDoForm';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       }}
     >
       <ToDoCard />
+      <ToDoForm />
     </div>
   );
 }
